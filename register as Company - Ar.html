@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="register as Company - Ar.css">
+           
+    </head>
+    <body>
+        
+            <form  action = "newpage.html" methods ="get">
+            <div class="register">
+
+                <label for="Name"><b>اسم الشركة</b></label>
+                <input pattern="[a-zA-Z]+" title="Please, Enter Your Company Name" type="text" placeholder="...اسم شركتك" name="Name" required> <br>
+                <label for="Name"><b>نشاط الشركة</b></label>
+                <input pattern="[a-zA-Z]+" title="Your Activity?" type="text" placeholder="...من فضلك، اوصف مجال عمل الشركة" name="Name" required> <br>
+                <label for="Name"><b>عنوان الشركة</b></label>
+                <input pattern="[a-zA-Z]+" title="Your Address" type="text" placeholder="...عنوان الشركة" name="Name" required> <br>
+                <div class="mail" ><label for="Email"><b>البريد الإلكتروني</b></label>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="...قم بإدخال البريد الإلكتروني الخاص بالشركة" name="Email"  required> <br></div>
+                <label for="psw" ><b>الرقم السري (5-8)</b></label>
+                <input type="password" placeholder="الرقم السري" name="psw" minlength="5" maxlength="8" required> <br>
+                <label for="psw-repeat"><b>إعادة الرقم السري</b></label>
+                <input type="password" placeholder="قم بإعادة إدخال الرقم السري" name="psw-repeat" minlength="5" maxlength="8" required> <br>
+                <label for="number"><b>الهاتف المحمول</b></label>
+                <input type="tel" pattern="[0-1]{2}[0-9]{9}$"(format:01xx-xxx-xxxx)  placeholder="...الهاتف المحمول الخاص بالشركة"  maxlength="11"  required> <br>
+                            <button type="submit" class="registerbtn"><b>سجل</b></button>
+                        </div>             
+            </div>
+    </body>
+</html>

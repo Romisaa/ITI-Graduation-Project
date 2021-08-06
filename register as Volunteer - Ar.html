@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="register as Volunteer - Ar.css">
+           
+    </head>
+    <body>
+        
+            <form  action = "newpage.html" methods ="get">
+            <div class="register">
+
+                <label for="Name"><b>الاسم الأول</b></label>
+                <input pattern="[a-zA-Z]+" title="Enter from (5-8) letters" type="text" placeholder="...اسمك الأول" name="Name" required> <br>
+                <label for="Name"><b>الاسم الأخير</b></label>
+                <input pattern="[a-zA-Z]+" title="Enter from (5-8) letters" type="text" placeholder="...اسمك الأخير" name="Name" required> <br>
+                <div class="mail" ><label for="Email"><b>البريد الإلكتروني</b></label>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="بريدك الإلكتروني..." name="Email"  required> <br></div>
+                <label for="psw" ><b>الرقم السري (5-8)</b></label>
+                <input type="password" placeholder="رقمك السري" name="psw" minlength="5" maxlength="8" required> <br>
+                <label for="psw-repeat"><b>إعادة الرقم السري</b></label>
+                <input type="password" placeholder="قم بإعادة إدخال الرقم السري" name="psw-repeat" minlength="5" maxlength="8" required> <br>
+                <label for="number"><b>الهاتف المحمول</b></label>
+                <input type="tel" pattern="[0-1]{2}[0-9]{9}$"(format:01xx-xxx-xxxx)  placeholder="...هاتفك المحمول"  maxlength="11"  required> <br>
+                <label for="Name"><b>لمّا نريد الانضمام إلينا؟</b></label>
+                <input pattern="[a-zA-Z]+" title="Why You Want To Be a Part?" Placeholder="أجب بحرية" type="text" name="Name" required> <br>
+                <label for="Name"><b>كيف يمكنك مساعدتنا؟</b></label>
+                <input pattern="[a-zA-Z]+" title="What is Your Skills?" type="text" placeholder="أجب بحرية" name="Name" required> <br>
+
+                            <button type="submit" class="registerbtn"><b>سجل</b></button>
+                        </div>             
+            </div>
+    </body>
+</html>

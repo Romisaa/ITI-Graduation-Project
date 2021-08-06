@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="register - Ar.css">
+           
+    </head>
+    <body>
+        
+            <form  action = "newpage.html" methods ="get">
+            <div class="register">
+
+                <label for="Name"><b>الاسم الأول</b></label>
+                <input pattern="[a-zA-Z]+" title="Enter from (5-8) letters" type="text" placeholder="...اسمك الأول" name="Name"  minlength="5" maxlength="8" required> <br>
+                <label for="Name"><b>الاسم الأخير</b></label>
+                <input pattern="[a-zA-Z]+" title="Enter from (5-8) letters" type="text" placeholder="...اسمك الأخير" name="Name" minlength="5" maxlength="8" required> <br>
+                <div class="mail" ><label for="Email"><b>البريد الإلكتروني</b></label>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="...بريدك الإلكتروني" name="Email"  required> <br></div>
+                <label for="psw" ><b>الرقم السري</b></label>
+                <input type="password" placeholder="ادخل الرقم السري" name="psw" minlength="5" maxlength="8" required> <br>
+                <label for="psw-repeat"><b>إعادة الرقم السري</b></label>
+                <input type="password" placeholder="قم بإدخال الرقم السري مرة أخرى" name="psw-repeat" minlength="5" maxlength="8" required> <br>
+                <label for="Name"><b>ما هي نباتات المفضلة؟</b></label>
+                <input type="text" pattern="[a-zA-Z]+" placeholder="... نباتاتك المفضلة"  maxlength="11"  required> <br>
+                            <button type="submit" class="registerbtn"><b>سجل</b></button>
+                        </div>             
+            </div>
+    </body>
+</html>

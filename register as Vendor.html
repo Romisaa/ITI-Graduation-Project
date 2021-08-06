@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="register as Vendor.css">
+           
+    </head>
+    <body>
+        
+            <form  action = "newpage.html" methods ="get">
+            <div class="register">
+
+                <label for="Name"><b>Shop Name</b></label>
+                <input pattern="[a-zA-Z]+" title="Please, Enter Your Shop Name" type="text" placeholder="Your Shop Name..." name="Name" required> <br>
+                <label for="Name"><b>Your Address</b></label>
+                <input pattern="[a-zA-Z]+" title="Please, Enter Your Shop Address" type="text" placeholder="Your Address..." name="Name" required> <br>
+                <div class="mail" ><label for="Email"><b>Email</b></label>
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Your Email..." name="Email"  required> <br></div>
+                <label for="psw" ><b>Password (5-8)</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" minlength="5" maxlength="8" required> <br>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" minlength="5" maxlength="8" required> <br>
+                <label for="number"><b>Mobile Number</b></label>
+                <input type="tel" pattern="[0-1]{2}[0-9]{9}$"(format:01xx-xxx-xxxx)  placeholder="Your Phone Number..."  maxlength="11"  required> <br>
+                            <button type="submit" class="registerbtn"><b><a href="https://mans-university.maps.arcgis.com/apps/webappviewer/index.html?id=176ff54308e140058110459f1eb1bd79">Register</a></b></button> 
+                        </div>             
+            </div>
+    </body>
+</html>

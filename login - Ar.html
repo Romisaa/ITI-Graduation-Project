@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log In</title>
+    <link href="logstyle - Ar.css" rel="stylesheet">
+</head>
+<body> 
+    <form action="action_page.php" method="post">
+        <!--<div class="imgcontainer">
+          <img src="" alt="Avatar" class="avatar">
+        </div>-->
+      
+        <div class="container">
+          <label for="Email"><b>البريد الإلكتروني</b></label>
+          <input type="text" placeholder="ادخل بريدك الإلكتروني" name="uname" required>
+      
+          <label for="psw"><b>الرقم السري</b></label>
+          <input type="password" placeholder="ادخل رقمك السري" name="psw" required>
+      
+          <button type="submit">تسجيل الدخول</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> قم بحفظ الرقم السري
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">إلغاء</button>
+          <span class="psw">نسيت <a href="#">رقمك السري؟</a></span>
+        </div>
+      </form>
+</body>
+</html>
